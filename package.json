@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/image-edge": "^1.0.0-28008586.381b906",
+    "@nuxtjs/tailwindcss": "^6.6.4",
+    "@types/node": "^18.15.11",
+    "@types/qs": "^6.9.7",
+    "nuxt": "3.3.2"
+  },
+  "dependencies": {
+    "@headlessui/vue": "^1.7.12",
+    "@vueuse/core": "^9.13.0",
+    "qs": "^6.11.1"
+  }
+}
